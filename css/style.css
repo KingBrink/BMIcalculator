@@ -1,6 +1,6 @@
 body {
     background-color: #222;
-    font-family: 'Press Start 2P', cursive;
+    font-family: 'Press Start 2P', bold;
     color: #fff;
     margin: 0;
     padding: 0;
@@ -15,43 +15,4 @@ body {
     border-radius: 5px;
     background-color: #333;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
-}
-
-h2 {
-    margin-bottom: 20px;
-    font-size: 24px;
-}
-
-input[type="number"], select {
-    width: calc(100% - 24px);
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 2px solid #fff;
-    border-radius: 3px;
-    background-color: #444;
-    color: #fff;
-    font-size: 14px;
-    font-family: 'Press Start 2P', cursive;
-}
-
-button {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 14px;
-    font-family: 'Press Start 2P', cursive;
-    transition: background-color 0.3s;
-}
-
-button:hover {
-    background-color: #0056b3;
-}
-
-p {
-    margin-top: 20px;
-    font-weight: bold;
-    font-size: 14px;
 }
